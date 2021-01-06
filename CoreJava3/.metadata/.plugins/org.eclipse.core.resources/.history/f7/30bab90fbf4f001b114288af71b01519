@@ -1,0 +1,14 @@
+package unit1;
+
+public class BasicIO {
+	/*
+	Input/Output
+	- Input/Output
+		- keyboard/Display
+		- file (plain file, html, xml, etc)
+		- database (mysql, oralce, sql server, sqlite ect)		
+		- web site
+		- recorded/video	
+	 */
+	
+}
