@@ -25,13 +25,27 @@ public class BasicIO {
 	public static void main(String[] args) {
 		String name;
 		int num1;
+		double num2;
 		
 		//Input
+		//reading string
 		name = readString("Enter your name : ");
-		num1 = Integer.parseInt(readString("Enter any number : ")); //String to int -> Type Conversion
+		
+		//reading integer number		
+		num1 = Integer.parseInt(readString("Enter any number (whole number) : ")); //String to int -> Type Conversion
+		
+		//reading floating (float/double) point number		
+		num2 = Double.parseDouble(readString("Enter any number (floating point number) : ")); //String to int -> Type Conversion
 		
 		System.out.println("String : "+name);
 		System.out.println("Integer : "+num1);
+		System.out.println("Double : "+num2);
+		
+		
+		//String -> boolean, byte, short, int, long, float, double and VS.		
+		//Boolean, Byte, Short, Integer, Long, Float, Double, String - Wrapper Classes (Store Value, and Type Conversion)
+		
+		//Object -> Data Type ?
 		
 	}
 	
