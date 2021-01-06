@@ -23,10 +23,19 @@ public class BasicIO {
 	 */
 	
 	public static void main(String[] args) {
-		String name = readString("Enter your name : ");	
-		System.out.println("Name : "+name);
+		String name;
+		int num1;
+		
+		//Input
+		name = readString("Enter your name : ");
+		num1 = Integer.parseInt(readString("Enter any number : ")); //String to int -> Type Conversion
+		
+		System.out.println("String : "+name);
+		System.out.println("Integer : "+num1);
+		
 	}
 	
+	//Input Function
 	public static String readString(String msg) {		
 		String str_tmp;
 		System.out.print(msg);
