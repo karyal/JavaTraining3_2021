@@ -1,6 +1,8 @@
 package unit1;
 import java.util.Scanner;
 
+import libs.MyFunctions;
+
 public class BasicIO {
 	/*
 	Input/Output
@@ -49,13 +51,44 @@ public class BasicIO {
 		//Object -> Data Type ?
 		*/
 		
-		int id;
-		String full_name, contact_address, email_address, phone_no;
-		double income, expenses;
-		
-		//Read above personal info from keyboard and display saving amount too.
+		task2();
 		
 	}
+	
+	public static void task2() {			
+		//Read above personal info from keyboard and display saving amount too.
+		
+		//1. Declare
+		int id;
+		String full_name, contact_address, email_address, phone_no;
+		double income, expenses, saving;
+		
+		//2. Input (keyboard, file, rdbms)
+		id = Integer.parseInt(MyFunctions.readString("Enter ID : "));
+		full_name = MyFunctions.readString("Enter Fullname: ");
+		contact_address = MyFunctions.readString("Enter Address : ");
+		email_address = MyFunctions.readString("Enter Email : ");
+		phone_no = MyFunctions.readString("Enter Phone : ");
+		income = Double.parseDouble(MyFunctions.readString("Enter Income Amount : "));
+		expenses = Double.parseDouble(MyFunctions.readString("Enter Income Expenses Amount : "));
+		
+		//3. Process (CPU)
+		saving = income-expenses;
+		
+		//4. Ouput (display, file, rdbms)
+		MyFunctions.print("Personal Details");
+		MyFunctions.print("ID", id);
+		MyFunctions.print("NAME", full_name);
+		MyFunctions.print("ADDRESS", contact_address);
+		MyFunctions.print("EMAIL", email_address);
+		MyFunctions.print("PHONE", phone_no);
+		MyFunctions.print("INCOME (RS) ", income);
+		MyFunctions.print("EXPENSES (RS) ", expenses);
+		MyFunctions.print("SAVING (RS) ", saving);
+		
+	}
+	
+	
 	/*
 	//Input Function
 	public static String readString(String msg) {		
@@ -66,3 +99,4 @@ public class BasicIO {
 	}
 	*/
 }
+
