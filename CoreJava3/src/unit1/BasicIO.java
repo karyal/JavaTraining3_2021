@@ -23,6 +23,7 @@ public class BasicIO {
 	 */
 	
 	public static void main(String[] args) {
+		/*
 		String name;
 		int num1;
 		double num2;
@@ -46,9 +47,16 @@ public class BasicIO {
 		//Boolean, Byte, Short, Integer, Long, Float, Double, String - Wrapper Classes (Store Value, and Type Conversion)
 		
 		//Object -> Data Type ?
+		*/
+		
+		int id;
+		String full_name, contact_address, email_address, phone_no;
+		double income, expenses;
+		
+		//Read above personal info from keyboard and display saving amount too.
 		
 	}
-	
+	/*
 	//Input Function
 	public static String readString(String msg) {		
 		String str_tmp;
@@ -56,4 +64,5 @@ public class BasicIO {
 		str_tmp = new Scanner(System.in).nextLine();
 		return str_tmp;
 	}
+	*/
 }
