@@ -47,8 +47,7 @@ public class TypeConversions {
 		float fn1 = ln1;
 		double dn1 = fn1;
 		MyFunctions.print("Double", dn1);
-		
-		
+				
 		// Narrowing : byte<-short<-int<-long<-float<-double (Value Losses)		
 		dn1=12345678.54323;
 		fn1 =(float) dn1;
@@ -56,10 +55,7 @@ public class TypeConversions {
 		in1 = (int) ln1;
 		sn1 = (short) in1;
 		bn1 = (byte) sn1;
-		MyFunctions.print("Byte", bn1);
-		
-		
-		
+		MyFunctions.print("Byte", bn1);						
 		
 	}
 }

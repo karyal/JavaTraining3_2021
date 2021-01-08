@@ -39,9 +39,9 @@ public class MyFunctions {
 	public static void print(String msg) {
 		System.out.print(msg);
 	}
-	
+	//keyboard, file, database - String
 	public static String readString(String msg) {		
 		print(msg);
-		return new Scanner(System.in).nextLine();
+		return new Scanner(System.in).nextLine();//Read from keyboard
 	}	
 }
