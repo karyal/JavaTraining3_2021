@@ -1,5 +1,7 @@
 package unit1;
 
+import libs.MyFunctions;
+
 public class DataTypes {
 	public static void main(String[] args) {
 		/*
@@ -109,6 +111,32 @@ public class DataTypes {
 		
 		//Extract individual character from String
 		
+		//Object Type?
+		//Basic Types - boolean, byte, char, short, int, logn, float, double
+		//Extended Types - String
+		//Class Type - User Defined
+		//Object - All Type
+		
+		//Object Example
+		Object obj1;
+		obj1 = true;
+		MyFunctions.print("", (boolean)obj1);
+		obj1 = 23;
+		MyFunctions.print("", (byte)obj1);
+		obj1 = 'A';
+		MyFunctions.print("", (char)obj1);
+		obj1 = 1234;
+		MyFunctions.print("", (short)obj1);
+		obj1 = 123478954;
+		MyFunctions.print("", (int)obj1);
+		obj1 = 87474151;
+		MyFunctions.print("", (long)obj1);
+		obj1 = 123.254F;
+		MyFunctions.print("", (float)obj1);
+		obj1 = 774.2145147;
+		MyFunctions.print("", (double)obj1);
+		obj1 = "Kathmandu, NEpal";
+		MyFunctions.print("", (String)obj1);
 		
 	}
 }

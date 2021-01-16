@@ -39,6 +39,11 @@ public class MyFunctions {
 	public static void print(String msg) {
 		System.out.print(msg);
 	}
+	
+	public static void print(int msg) {
+		System.out.print(msg);
+	}
+	
 	//keyboard, file, database - String
 	public static String readString(String msg) {		
 		print(msg);
