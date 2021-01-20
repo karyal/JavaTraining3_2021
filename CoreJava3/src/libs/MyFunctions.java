@@ -45,8 +45,20 @@ public class MyFunctions {
 	}
 	
 	//keyboard, file, database - String
-	public static String readString(String msg) {		
+	public static String readString(String msg) {
 		print(msg);
 		return new Scanner(System.in).nextLine();//Read from keyboard
-	}	
+	}
+	
+	public static String readString() {		
+		return new Scanner(System.in).nextLine();//Read from keyboard
+	}
+	
+	public static int readInt() {				
+		return Integer.parseInt(readString());//Read from keyboard
+	}
+	
+	public static void newLine() {
+		System.out.println();
+	}
 }
