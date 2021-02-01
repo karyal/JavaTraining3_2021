@@ -2,10 +2,6 @@ package pkg1;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import unit7.MYJDBC2;
 import unit7.Person;
-
 
 @WebServlet("/servlet1")
 public class Servlet1 extends HttpServlet {

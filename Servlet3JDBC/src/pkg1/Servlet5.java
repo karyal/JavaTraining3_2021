@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import unit7.MYJDBC2;
-import unit7.Person;
 
 /**
  * Servlet implementation class Servlet4

@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import unit7.MYJDBC2;
 import unit7.Person;
-
+@WebServlet(name="/servlet2", loadOnStartup = 0)
 public class Servlet2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
