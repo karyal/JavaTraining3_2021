@@ -1,0 +1,32 @@
+Object Oriented Programming Approach (Methodology)
+1. Class & Object
+- Class
+- Object
+- Instance variables
+- this
+- Constructor (Default, Parameterized, and Copy)
+- Overloading - Class have same name of multiple methods with different parameter list
+- Setters and Getters
+- toString
+ 
+2. Inheritance (extends)
+- extends
+- super
+- Overriding (@Overriding) - parent and child class have same name but different body (code)
+
+3. Polymorphism 
+-  Overloading - Class have same name of multiple methods with different parameter list
+-  Overriding (@Overriding) - parent and child class have same name
+
+4. Abstraction *
+- Abstract Class/abstract method - must extends
+- Interface (final variable/abstract method) - must implements
+
+5. Others
+- final class - can not extend
+- abstract class - must extend
+
+6. Package
+- Create
+- Export as jar file
+- Import jar file
