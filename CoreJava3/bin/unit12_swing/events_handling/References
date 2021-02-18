@@ -1,0 +1,49 @@
+Components of Event Handling
+Event handling has three main components,
+Events : An event is a change in state of an object.
+Events Source : Event source is an object that generates an event.
+Listeners : A listener is an object that listens to the event. A listener gets notified when an event occurs.
+
+1. ActionListener - Interface
+Generated when button is pressed, menu-item is selected, list-item is double clicked
+ActionEvent - Class
+
+2. MouseListener - Interface 
+Generated when mouse is dragged, moved,clicked,pressed or released and also when it enters or exit a component	
+MouseEvent - Class
+
+3. KeyListener - Interface
+Generated when input is received from keyboard
+KeyEvent - Class
+
+4. ItemListener - Interface	
+Generated when check-box or list item is clicked
+ItemEvent - Class
+
+5. TextListener
+Generated when value of textarea or textfield is changed
+TextEvent - Class	
+	
+6. MouseWheelListener - Interface	
+Generated when mouse wheel is moved
+MouseWheelEvent - Class
+	
+7. WindowListener
+Generated when window is activated, deactivated, deiconified, iconified, opened or closed
+WindowEvent - Class
+
+8. ComponentEventListener - Interface
+Generated when component is hidden, moved, resized or set visible	
+ComponentEvent - Class
+
+9. ContainerListener - Interface
+Generated when component is added or removed from container
+ContainerEvent	- Class
+
+10. AdjustmentListener - Interface
+Generated when scroll bar is manipulated
+AdjustmentEvent - Class
+
+11. FocusListener
+Generated when component gains or loses keyboard focus
+FocusEvent - Class

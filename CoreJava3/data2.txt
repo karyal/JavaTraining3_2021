@@ -1,0 +1,1 @@
+Java.io class package includes almost all operations of input and output needs. All of these stream classes represent the input source and output destination.

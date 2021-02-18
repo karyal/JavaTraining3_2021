@@ -1,0 +1,9 @@
+Java.io class package includes almost all operations of input and output needs. All of these stream classes represent the input source and output destination.
+
+Java.io package streaming support a variety of formats, such as: basic types, objects, localized character sets and so on.
+
+It can be understood as a sequence of a stream of data. Represents the input stream to read data from a source to a target output stream represents write data.
+
+Java provides a powerful and flexible support for I / O, making it more widely used in file transfers and network programming.
+
+However, this section describes the most basic and stream I / O related functions. We will learn through an example to these functions.
